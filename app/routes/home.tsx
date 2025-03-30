@@ -1,0 +1,13 @@
+import type { Route } from "./+types/home";
+import { Welcome } from "../welcome/welcome";
+
+export function meta({}: Route.MetaArgs) {
+  return [
+    { title: "Re-Act" },
+    { name: "description", content: "Welcome to Re-Act!" },
+  ];
+}
+
+export default function Home() {
+  return <Welcome />;
+}

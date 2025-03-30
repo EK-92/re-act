@@ -1,0 +1,35 @@
+{
+  "name": "",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "react-router build",
+    "dev": "react-router dev",
+    "start": "react-router-serve ./build/server/index.js",
+    "typecheck": "react-router typegen && tsc"
+  },
+  "dependencies": {
+    "@react-router/node": "^7.4.1",
+    "@react-router/serve": "^7.4.1",
+    "isbot": "^5.1.17",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router": "^7.4.1"
+  },
+  "devDependencies": {
+    "@react-router/dev": "^7.4.1",
+    "@tailwindcss/vite": "^4.0.0",
+    "@types/node": "^20",
+    "@types/react": "^19.0.12",
+    "@types/react-dom": "^19.0.4",
+    "babel-plugin-react-compiler": "^19.0.0-beta-aeaed83-20250323",
+    "eslint": "^8.57.1",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-react-compiler": "^19.0.0-beta-aeaed83-20250323",
+    "react-router-devtools": "^1.1.0",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.7.2",
+    "vite": "^6.2.3",
+    "vite-tsconfig-paths": "^5.1.4"
+  }
+}
